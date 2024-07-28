@@ -6,6 +6,27 @@
   
 }
 
+body {
+  nav {
+    header {
+      @apply !max-w-full !px-3;
+      ul li {
+        @apply flex
+      }
+    }
+  }
+  .cl-rootBox {
+    .cl-footer {
+      @apply hidden
+    }
+  }
+  .cl-userButtonPopoverCard {
+    .cl-userButtonPopoverFooter {
+      @apply hidden
+    }
+  }
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
